@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <modules>
+        <Func0der_Recaptcha>
+            <version>1.0.0</version>
+        </Func0der_Recaptcha>
+    </modules>
+    <global>
+        <blocks>
+            <captcha>
+                <rewrite>
+                    <captcha_zend_recaptcha>Func0der_Recaptcha_Block_Captcha_Zend_Recaptcha</captcha_zend_recaptcha>
+                </rewrite>
+            </captcha>
+        </blocks>
+        <models>
+            <func0der_recaptcha>
+                <class>Func0der_Recaptcha_Model</class>
+            </func0der_recaptcha>
+            <captcha>
+                <rewrite>
+                    <zend_recaptcha>Func0der_Recaptcha_Model_Zend_Recaptcha</zend_recaptcha>
+                </rewrite>
+            </captcha>
+        </models>
+        <helpers>
+            <func0der_recaptcha>
+                <class>Func0der_Recaptcha_Helper</class>
+            </func0der_recaptcha>
+        </helpers>
+        <events>
+            <controller_action_predispatch>
+                <observers>
+                    <func0der_recaptcha>
+                        <class>func0der_recaptcha/observer</class>
+                        <method>rewrite_captcha_parameter</method>
+                    </func0der_recaptcha>
+                </observers>
+            </controller_action_predispatch>
+        </events>
+        <helpers>
+            <recaptcha>
+                <class>Func0der_Recaptcha_Helper</class>
+            </recaptcha>
+        </helpers>
+    </global>
+</config>

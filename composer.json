@@ -1,0 +1,10 @@
+{
+  "name": "func0der/magento-extension-recaptcha",
+  "type": "magento-module",
+  "description": "An extension to the internal Magento captcha module, to support ReCaptcha.",
+
+  "require": {
+	"php": ">= 7.1",
+	"magento-hackathon/magento-composer-installer": "*"
+  }
+}

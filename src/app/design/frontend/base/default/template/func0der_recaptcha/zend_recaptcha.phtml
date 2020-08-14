@@ -1,0 +1,14 @@
+<?php /* @var $this Func0der_Recaptcha_Block_Captcha_Zend_Recaptcha */ ?>
+
+<?php /* @var $captcha Func0der_Recaptcha_Model_Zend_Recaptcha */ ?>
+<?php $captcha = $this->getCaptchaModel() ?>
+<li id="captcha-input-box-<?php echo $this->getFormId() ?>">
+    <div class="input-box captcha">
+        <div class="g-recaptcha" data-sitekey="<?php echo $this->helper('func0der_recaptcha/data')->getKey(); ?>"
+             data-theme="<?php echo($this->helper('func0der_recaptcha')->getTheme()); ?>"
+        ></div>
+        <input type="hidden" name="<?= Func0der_Recaptcha_Helper_Data::FORM_FIELD_NAME_FORM_ID; ?>"
+               value="<?= Mage::helper('core')->quoteEscape($this->getFormId()); ?>">
+    </div>
+</li>
+<script src='https://www.google.com/recaptcha/api.js'></script>

@@ -1,0 +1,8 @@
+<config>
+	<modules>
+		<Func0der_Recaptcha>
+				<active>true</active>
+				<codePool>local</codePool>
+		</Func0der_Recaptcha>
+	</modules>
+</config>
