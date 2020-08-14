@@ -2,6 +2,7 @@
   "name": "func0der/magento-extension-recaptcha",
   "type": "magento-module",
   "description": "An extension to the internal Magento captcha module, to support ReCaptcha.",
+  "license": "MIT",
 
   "require": {
 	"php": ">= 7.1",
