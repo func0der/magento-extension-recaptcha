@@ -33,7 +33,7 @@ From there, select the *Captcha Type* to be *ReCaptcha*.
 
 Afterwards put in your *Site Key* and your *Secret Key*. Optionally chose a theme.
 
-** Please be aware, that you need to put your keys in the admin settings *and* in the customer CAPTCHA settings, to use them at both places. **
+**Please be aware, that you need to put your keys in the admin settings *and* in the customer CAPTCHA settings, to use them at both places.**
 
 
 ## Uninstall
