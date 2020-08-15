@@ -2,7 +2,7 @@
 	<modules>
 		<Func0der_Recaptcha>
 				<active>true</active>
-				<codePool>local</codePool>
+				<codePool>community</codePool>
 		</Func0der_Recaptcha>
 	</modules>
 </config>
