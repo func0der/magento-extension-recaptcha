@@ -5,8 +5,8 @@ declare(strict_types=1);
 class Func0der_Recaptcha_Helper_Data extends Mage_Core_Helper_Abstract
 {
     public const FORM_FIELD_NAME_FORM_ID = 'captcha-form-id';
-    private const SITE_KEY = 'recaptcha_sitekey';
-    private const SECRET_KEY = 'recaptcha_secretkey';
+    private const SITE_KEY = 'recaptcha_site_key';
+    private const SECRET_KEY = 'recaptcha_secret_key';
     private const RECAPTCHA_THEME = 'recaptcha_theme';
     private const THEME_LIGHT = Func0der_Recaptcha_Model_Source_ThemeSource::THEME_LIGHT;
     private const THEME_DARK = Func0der_Recaptcha_Model_Source_ThemeSource::THEME_DARK;
